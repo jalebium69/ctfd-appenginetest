@@ -2,9 +2,9 @@ runtime: custom
 env: flex
 
 env_variables:
-  SECRET_KEY: "[redacted]"
-  DATABASE_URL: "mysql+pymysql://root:[redacted]@redacted.mysql.host/ctfd"
-  REDIS_URL: "redis://redacted.redis.host:6379"
+  SECRET_KEY: "jesherjoshua"
+  DATABASE_URL: "mysql+pymysql://root:jj123@34.67.126.30/ctfdtest"
+  REDIS_URL: "redis://10.31.225.5:6379"
   REVERSE_PROXY: "2,0,0,0,0"
   MAILFROM_ADDR: "noreply@downunderctf.com"
   MAIL_SERVER: "email-smtp.ap-southeast-2.amazonaws.com"
