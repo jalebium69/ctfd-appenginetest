@@ -1,5 +1,5 @@
 FROM ctfd/ctfd
-
+USER 1001
 # apply patches
 WORKDIR /opt/CTFd
 COPY ./patch.txt /opt/CTFd/patch.txt
